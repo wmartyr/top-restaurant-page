@@ -33,6 +33,17 @@ headerRight.appendChild(aboutUsButton);
 pageHeader.appendChild(headerLeft);
 pageHeader.appendChild(headerRight);
 
+const pageMain = document.createElement("main");
+pageMain.classList.add("main-of-main");
+
+const pageFooter = document.createElement("footer");
+pageFooter.textContent = "320 Pulteney St, Adelaide South Australia 5000";
+
 pageContent.appendChild(pageHeader);
+pageContent.appendChild(pageMain);
+// pageContent,appendChild(pageFooter);
+
+export default pageContent;
 
 
+// TODO fix issue where page does not follow css rules.
