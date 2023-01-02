@@ -43,9 +43,9 @@ pageFooter.textContent = "320 Pulteney St, Adelaide South Australia 5000";
 
 mainPageContent.appendChild(pageHeader);
 mainPageContent.appendChild(pageMain);
-// pageContent,appendChild(pageFooter);
+mainPageContent.appendChild(pageFooter);
 
-export default pageContent;
+export default mainPageContent;
 
 
 // TODO fix issue where page does not follow css rules.
