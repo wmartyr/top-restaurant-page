@@ -4,6 +4,7 @@ const pageHeader = document.createElement("header");
 
 const headerLeft = document.createElement("div");
 headerLeft.classList.add("header-left");
+headerLeft.setAttribute("id", "logo");
 
 const nameOnMainPage1 = document.createElement("div");
 nameOnMainPage1.classList.add("name-secondary");

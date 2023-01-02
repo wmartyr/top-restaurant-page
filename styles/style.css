@@ -87,6 +87,7 @@ main {
     background-size: cover;
     margin-top: 20px;
     height: calc(100vh - 220px);
+    /* width: 450px; */
 }
 
 .main-of-menu {
