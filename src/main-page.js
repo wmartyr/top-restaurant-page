@@ -46,6 +46,3 @@ mainPageContent.appendChild(pageMain);
 mainPageContent.appendChild(pageFooter);
 
 export default mainPageContent;
-
-
-// TODO fix issue where page does not follow css rules.
