@@ -1,5 +1,6 @@
 import mainPageContent from "./main-page";
 import menuPageContent from "./menu-page";
+import aboutPageContent from "./about-us-page";
 import '../styles/reset.css';
 import '../styles/style.css';
 
@@ -8,7 +9,7 @@ const buttons = document.querySelectorAll("button");
 const logo = document.querySelector("#logo");
 var currentPage = "main";
 
-content.appendChild(menuPageContent);
+content.appendChild(aboutPageContent);
 
 // logo.addEventListener("click", () => {
 //     if (currentPage === "menu") {
