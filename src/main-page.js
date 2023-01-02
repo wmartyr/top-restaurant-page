@@ -1,4 +1,4 @@
-const pageContent = document.createElement("div");
+const mainPageContent = document.createElement("div");
 
 const pageHeader = document.createElement("header");
 
@@ -21,10 +21,12 @@ headerRight.classList.add("header-right");
 
 const menuButton = document.createElement("button");
 menuButton.classList.add("menu-page");
+menuButton.setAttribute("id", "menu-page-button");
 menuButton.textContent = "MENU";
 
 const aboutUsButton = document.createElement("button");
 aboutUsButton.classList.add("about-us");
+aboutUsButton.setAttribute("id", "about-us-button");
 aboutUsButton.textContent = "ABOUT US";
 
 headerRight.appendChild(menuButton);
@@ -39,8 +41,8 @@ pageMain.classList.add("main-of-main");
 const pageFooter = document.createElement("footer");
 pageFooter.textContent = "320 Pulteney St, Adelaide South Australia 5000";
 
-pageContent.appendChild(pageHeader);
-pageContent.appendChild(pageMain);
+mainPageContent.appendChild(pageHeader);
+mainPageContent.appendChild(pageMain);
 // pageContent,appendChild(pageFooter);
 
 export default pageContent;
