@@ -112,5 +112,3 @@ function aboutClickActions() {
         currentPage = "about";
     }
 }
-
-//TODO fix tabs not working
